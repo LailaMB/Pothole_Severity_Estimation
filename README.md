@@ -10,14 +10,15 @@ This project proposes an intelligent system that detects potholes, quantifying a
 
 
 ## Dataset
+For generating the training bounding boxes and segmentation masks, we annotate some of the  given images using Roboflow: https://roboflow.com/. The dataset is available in the Data folder.
 
-Trento and Civezzano UAV datasets are not included in the repository, as they are owned by other parties. However, you can try the code with <a href="https://bigearth.eu/datasets.html"> UC-Merced Multilabel Dataset</a> or <a href="https://github.com/Hua-YS/AID-Multilabel-Dataset">AID Multilabel Dataset</a>.
+## Inference
+
 
 ## To run
 
-1. Install the required libraries.
-2. Clone the data-efficient transformers (deit) model.
-<code> !git clone https://github.com/facebookresearch/deit.git </code>
+1. Clone the  model.
+<code>https://github.com/LailaMB/Pothole_Severity_Estimation.git</code>
 
-2. Replace the <code> 'deit/models.py'</code> file with the <code> models.py </code> file included in the repository.
-3. Run <code> UAV_image_multilabeling_Transformer.py </code>
+2. Run the <code> python segment/predict.py --weights yolov7-seg.pt --source Theme2_seg_data/input.mp3 --name coco</code>.
+3. Run <code>  </code>

@@ -10,7 +10,7 @@ This project proposes an intelligent system that detects potholes, quantifying a
 
 
 ## Dataset
-For generating the training bounding boxes and segmentation masks, we annotate some of the  given images using Roboflow: https://roboflow.com/. The dataset is available in the <code>  </code>.
+For generating the training bounding boxes and segmentation masks, we annotate some of the  given images using Roboflow: https://roboflow.com/.
 
 
 ## To run

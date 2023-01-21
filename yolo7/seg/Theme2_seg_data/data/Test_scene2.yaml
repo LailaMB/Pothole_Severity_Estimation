@@ -1,0 +1,13 @@
+train: D:/2024/Theme2/yolov7/seg/Theme2_seg_data/data/Test_scene2/images
+val: D:/2024/Theme2/yolov7/seg/Theme2_seg_data/data/Test_scene2/images
+test: D:/2024/Theme2/yolov7/seg/Theme2_seg_data/data/Train_scene2/images
+
+nc: 1
+names: ['Pothole']
+
+roboflow:
+  workspace: yakoubprojects
+  project: demonew
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yakoubprojects/demonew/dataset/1

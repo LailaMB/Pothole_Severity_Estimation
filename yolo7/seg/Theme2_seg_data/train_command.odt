@@ -1,0 +1,8 @@
+##### important check that we getting the intial weights for fine-tuning.
+
+Train 
+
+
+
+##### inference
+python segment/predict.py --weights yolov7-seg.pt --source Theme2_seg_data/input.mp3 --name coco

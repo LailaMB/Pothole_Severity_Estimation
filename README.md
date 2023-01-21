@@ -10,9 +10,7 @@ This project proposes an intelligent system that detects potholes, quantifying a
 
 
 ## Dataset
-For generating the training bounding boxes and segmentation masks, we annotate some of the  given images using Roboflow: https://roboflow.com/. The dataset is available in the Data folder.
-
-## Inference
+For generating the training bounding boxes and segmentation masks, we annotate some of the  given images using Roboflow: https://roboflow.com/. The dataset is available in the <code>  </code>.
 
 
 ## To run
@@ -20,5 +18,5 @@ For generating the training bounding boxes and segmentation masks, we annotate s
 1. Clone the  model.
 <code>https://github.com/LailaMB/Pothole_Severity_Estimation.git</code>
 
-2. Run the <code> python segment/predict.py --weights yolov7-seg.pt --source Theme2_seg_data/input.mp3 --name coco</code>.
-3. Run <code>  </code>
+2. Run the <code> python segment/predict.py --weights yolov7/seg/Pothole_model.pt --source Theme2_seg_data/input.mp3 --name coco</code> to get the segmentation results.
+3. Run <code> Depthmap3DCloud/Depth_map_generation.py </code> to generate the depth map and the 3d point cloud.
